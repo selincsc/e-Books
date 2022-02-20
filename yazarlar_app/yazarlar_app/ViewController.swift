@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import Kingfisher
+import
 
 class ViewController: MyController {
 
@@ -24,6 +26,8 @@ class ViewController: MyController {
     @IBOutlet weak var footer_view_outlet: view_desing!
     
     
+    @IBOutlet weak var profile_image_outlet: AnimatedImageView!
+    
     @IBOutlet weak var profile_button_action: UIButton!
     
     @IBAction func suanokunan_button_action(_ sender: Any) {
@@ -39,12 +43,32 @@ class ViewController: MyController {
     
     @IBOutlet weak var middle_view_outlet: view_desing!
     
-    @IBOutlet weak var middle_label1_outlet: UILabel!
+    @IBOutlet weak var middle_label1_outlet: UILabel!{
+        didSet{
+            middle_label1_outlet.text = "Kurgu ve Edebiyat"
+        }
+    }
     
-    @IBOutlet weak var middle_label2_outlet: UILabel!
+    @IBAction func kahve_kurgu_button_action(_ sender: Any) {
+    }
     
-    @IBOutlet weak var middle_label_outlet: UILabel!
     
+    @IBOutlet weak var middle_label2_outlet: UILabel!{
+        didSet{
+            middle_label2_outlet.text = "Araştırma ve İnceleme"
+        }
+    }
+    
+    @IBAction func tarot_arastirma_button_action(_ sender: Any) {
+    }
+    
+    @IBOutlet weak var middle_label3_outlet: UILabel!{
+        didSet{
+            middle_label2_outlet.text = "Sorgulama ve Eleştirme"
+        }
+    }
+    @IBAction func melek_sorgulama_button_action(_ sender: Any) {
+    }
     
     
     
@@ -57,3 +81,6 @@ class ViewController: MyController {
 
 }
 
+extension ViewController{
+    
+}

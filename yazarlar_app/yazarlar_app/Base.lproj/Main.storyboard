@@ -33,10 +33,6 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
                                     </button>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7352" translatesAutoresizingMaskIntoConstraints="NO" id="E7Q-ws-BTK">
-                                        <rect key="frame" x="325" y="37" width="85" height="66"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                    </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOn-LT-h4b">
                                         <rect key="frame" x="11" y="130" width="46" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -50,6 +46,10 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7352" translatesAutoresizingMaskIntoConstraints="NO" id="E7Q-ws-BTK" customClass="AnimatedImageView">
+                                        <rect key="frame" x="329" y="52" width="85" height="66"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                             </view>
@@ -136,6 +136,9 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="kahve_kurgu_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V16-Q4-Sa4"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -160,6 +163,9 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="melek_sorgulama_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i8V-V8-EoD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -184,6 +190,9 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="tarot_arastirma_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MnG-0r-Uai"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
@@ -197,14 +206,15 @@
                     </view>
                     <connections>
                         <outlet property="baslik_label_outlet" destination="7ZC-Ed-ujj" id="AgQ-VC-CkY"/>
-                        <outlet property="footer_view_controller" destination="rHy-wQ-7sS" id="w9W-v5-fDj"/>
-                        <outlet property="header_view_controller" destination="ZwM-N9-9Wh" id="SgD-yp-Nc3"/>
+                        <outlet property="footer_view_outlet" destination="rHy-wQ-7sS" id="cJU-eT-gNb"/>
+                        <outlet property="header_view_outlet" destination="ZwM-N9-9Wh" id="2Zd-iK-Vt2"/>
                         <outlet property="label_outlet" destination="OHu-jp-mLG" id="y3d-3v-tbD"/>
                         <outlet property="middle_label1_outlet" destination="eEj-uH-4We" id="kz6-mN-5y5"/>
                         <outlet property="middle_label2_outlet" destination="4gA-Yg-h2H" id="4T1-Fd-VVM"/>
-                        <outlet property="middle_label_outlet" destination="emb-Yc-kPQ" id="o0j-oT-kUm"/>
+                        <outlet property="middle_label3_outlet" destination="emb-Yc-kPQ" id="gcS-ZO-dM6"/>
                         <outlet property="middle_view_outlet" destination="Q33-o7-YKU" id="N89-pu-2lN"/>
                         <outlet property="profile_button_action" destination="xoJ-vJ-pBV" id="XJ2-2D-XbI"/>
+                        <outlet property="profile_image_outlet" destination="E7Q-ws-BTK" id="Hui-fi-w3K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
