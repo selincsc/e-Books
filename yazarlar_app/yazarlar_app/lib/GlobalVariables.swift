@@ -16,3 +16,4 @@ var falci_detay = JSON()
 
 var giris = JSON()
 var getFalciYorum = JSON()
+var user_id = String()

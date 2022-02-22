@@ -19,9 +19,14 @@
 		11102A3C27C2D64C00E9B81C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11102A3727C2D64C00E9B81C /* Colors.swift */; };
 		11102A3D27C2D64C00E9B81C /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11102A3827C2D64C00E9B81C /* GlobalVariables.swift */; };
 		11102A3F27C2D65900E9B81C /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11102A3E27C2D65900E9B81C /* MyController.swift */; };
+		1188572F27C510A700C0C313 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188572E27C510A700C0C313 /* LoginViewController.swift */; };
+		11A0820127C51AAC0018F036 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0820027C51AAC0018F036 /* SignViewController.swift */; };
+		11A0820327C534E80018F036 /* WritersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0820227C534E80018F036 /* WritersViewController.swift */; };
+		4DF02C6B1D13C28763509D70 /* Pods_yazarlar_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2820ADD62BEDF1D5CC32A4D0 /* Pods_yazarlar_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10B011F6BC9136BFB6C76A85 /* Pods-yazarlar_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yazarlar_app.release.xcconfig"; path = "Target Support Files/Pods-yazarlar_app/Pods-yazarlar_app.release.xcconfig"; sourceTree = "<group>"; };
 		11102A1C27C2D54100E9B81C /* yazarlar_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yazarlar_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11102A1F27C2D54100E9B81C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11102A2127C2D54100E9B81C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,11 @@
 		11102A3727C2D64C00E9B81C /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		11102A3827C2D64C00E9B81C /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		11102A3E27C2D65900E9B81C /* MyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
+		1188572E27C510A700C0C313 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		11A0820027C51AAC0018F036 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
+		11A0820227C534E80018F036 /* WritersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritersViewController.swift; sourceTree = "<group>"; };
+		2820ADD62BEDF1D5CC32A4D0 /* Pods_yazarlar_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yazarlar_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1002FD6279ED3CCE1DC6F32 /* Pods-yazarlar_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yazarlar_app.debug.xcconfig"; path = "Target Support Files/Pods-yazarlar_app/Pods-yazarlar_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF02C6B1D13C28763509D70 /* Pods_yazarlar_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +65,8 @@
 			children = (
 				11102A1E27C2D54100E9B81C /* yazarlar_app */,
 				11102A1D27C2D54100E9B81C /* Products */,
+				B42E014E7891C561765B05B2 /* Pods */,
+				C2EB38561FC6FF84032EB667 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +86,9 @@
 				11102A1F27C2D54100E9B81C /* AppDelegate.swift */,
 				11102A2127C2D54100E9B81C /* SceneDelegate.swift */,
 				11102A2327C2D54100E9B81C /* ViewController.swift */,
+				11A0820227C534E80018F036 /* WritersViewController.swift */,
+				11A0820027C51AAC0018F036 /* SignViewController.swift */,
+				1188572E27C510A700C0C313 /* LoginViewController.swift */,
 				11102A2527C2D54100E9B81C /* Main.storyboard */,
 				11102A2827C2D54200E9B81C /* Assets.xcassets */,
 				11102A2A27C2D54200E9B81C /* LaunchScreen.storyboard */,
@@ -93,6 +109,23 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		B42E014E7891C561765B05B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1002FD6279ED3CCE1DC6F32 /* Pods-yazarlar_app.debug.xcconfig */,
+				10B011F6BC9136BFB6C76A85 /* Pods-yazarlar_app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2EB38561FC6FF84032EB667 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2820ADD62BEDF1D5CC32A4D0 /* Pods_yazarlar_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11102A3027C2D54200E9B81C /* Build configuration list for PBXNativeTarget "yazarlar_app" */;
 			buildPhases = (
+				B4415939A4EBF05ED5A5F4E8 /* [CP] Check Pods Manifest.lock */,
 				11102A1827C2D54100E9B81C /* Sources */,
 				11102A1927C2D54100E9B81C /* Frameworks */,
 				11102A1A27C2D54100E9B81C /* Resources */,
+				681022E2A7AC77A4062ABB06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +194,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		681022E2A7AC77A4062ABB06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yazarlar_app/Pods-yazarlar_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-yazarlar_app/Pods-yazarlar_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-yazarlar_app/Pods-yazarlar_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4415939A4EBF05ED5A5F4E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yazarlar_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11102A1827C2D54100E9B81C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -167,11 +244,14 @@
 				11102A3A27C2D64C00E9B81C /* DesignClass.swift in Sources */,
 				11102A3B27C2D64C00E9B81C /* TextFieldExtensions.swift in Sources */,
 				11102A3D27C2D64C00E9B81C /* GlobalVariables.swift in Sources */,
+				11A0820127C51AAC0018F036 /* SignViewController.swift in Sources */,
 				11102A3F27C2D65900E9B81C /* MyController.swift in Sources */,
 				11102A2427C2D54100E9B81C /* ViewController.swift in Sources */,
 				11102A3C27C2D64C00E9B81C /* Colors.swift in Sources */,
 				11102A2027C2D54100E9B81C /* AppDelegate.swift in Sources */,
 				11102A2227C2D54100E9B81C /* SceneDelegate.swift in Sources */,
+				11A0820327C534E80018F036 /* WritersViewController.swift in Sources */,
+				1188572F27C510A700C0C313 /* LoginViewController.swift in Sources */,
 				11102A3927C2D64C00E9B81C /* ImageExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +396,7 @@
 		};
 		11102A3127C2D54200E9B81C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1002FD6279ED3CCE1DC6F32 /* Pods-yazarlar_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -343,6 +424,7 @@
 		};
 		11102A3227C2D54200E9B81C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B011F6BC9136BFB6C76A85 /* Pods-yazarlar_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
