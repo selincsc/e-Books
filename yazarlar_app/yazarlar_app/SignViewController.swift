@@ -24,6 +24,7 @@ class SignViewController: MyController {
     }
     
     @IBAction func forgotpass_button_action(_ sender: Any) {
+        showVC(identifierName: "ForgotPAsswordViewController")
         
     }
     @IBAction func signin_button_action(_ sender: Any) {
