@@ -19,6 +19,9 @@
 		11102A3C27C2D64C00E9B81C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11102A3727C2D64C00E9B81C /* Colors.swift */; };
 		11102A3D27C2D64C00E9B81C /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11102A3827C2D64C00E9B81C /* GlobalVariables.swift */; };
 		11102A3F27C2D65900E9B81C /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11102A3E27C2D65900E9B81C /* MyController.swift */; };
+		111453DC27C5564F00CF071F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111453DB27C5564F00CF071F /* SettingsViewController.swift */; };
+		111453DE27C5599900CF071F /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111453DD27C5599900CF071F /* SettingTableViewCell.swift */; };
+		111453E027C5618300CF071F /* ForgotPAsswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111453DF27C5618300CF071F /* ForgotPAsswordViewController.swift */; };
 		1188572F27C510A700C0C313 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1188572E27C510A700C0C313 /* LoginViewController.swift */; };
 		11A0820127C51AAC0018F036 /* SignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0820027C51AAC0018F036 /* SignViewController.swift */; };
 		11A0820327C534E80018F036 /* WritersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0820227C534E80018F036 /* WritersViewController.swift */; };
@@ -45,6 +48,9 @@
 		11102A3727C2D64C00E9B81C /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		11102A3827C2D64C00E9B81C /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		11102A3E27C2D65900E9B81C /* MyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
+		111453DB27C5564F00CF071F /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		111453DD27C5599900CF071F /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		111453DF27C5618300CF071F /* ForgotPAsswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPAsswordViewController.swift; sourceTree = "<group>"; };
 		1188572E27C510A700C0C313 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		11A0820027C51AAC0018F036 /* SignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignViewController.swift; sourceTree = "<group>"; };
 		11A0820227C534E80018F036 /* WritersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritersViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +100,9 @@
 				11102A1F27C2D54100E9B81C /* AppDelegate.swift */,
 				11102A2127C2D54100E9B81C /* SceneDelegate.swift */,
 				11102A2327C2D54100E9B81C /* ViewController.swift */,
+				111453DF27C5618300CF071F /* ForgotPAsswordViewController.swift */,
+				111453DD27C5599900CF071F /* SettingTableViewCell.swift */,
+				111453DB27C5564F00CF071F /* SettingsViewController.swift */,
 				11A0820A27C54C9F0018F036 /* ProfileViewController.swift */,
 				11A0820827C5469C0018F036 /* SearchViewController.swift */,
 				11A0820627C53E490018F036 /* AboutViewController.swift */,
@@ -264,7 +273,10 @@
 				11102A2427C2D54100E9B81C /* ViewController.swift in Sources */,
 				11102A3C27C2D64C00E9B81C /* Colors.swift in Sources */,
 				11102A2027C2D54100E9B81C /* AppDelegate.swift in Sources */,
+				111453E027C5618300CF071F /* ForgotPAsswordViewController.swift in Sources */,
 				11102A2227C2D54100E9B81C /* SceneDelegate.swift in Sources */,
+				111453DE27C5599900CF071F /* SettingTableViewCell.swift in Sources */,
+				111453DC27C5564F00CF071F /* SettingsViewController.swift in Sources */,
 				11A0820727C53E490018F036 /* AboutViewController.swift in Sources */,
 				11A0820327C534E80018F036 /* WritersViewController.swift in Sources */,
 				1188572F27C510A700C0C313 /* LoginViewController.swift in Sources */,

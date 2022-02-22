@@ -33,6 +33,7 @@ class SearchViewController: MyController {
     }
     
     @IBAction func profile_button_action(_ sender: Any) {
+        showVC(identifierName: "ProfileViewController")
         
     }
     

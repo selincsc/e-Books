@@ -25,7 +25,11 @@ class ViewController: MyController {
     }
     @IBOutlet weak var profile_image_outlet: AnimatedImageView!
     
-    @IBOutlet weak var profile_button_action: UIButton!
+    
+    @IBAction func pp_button_action(_ sender: Any) {
+        showVC(identifierName: "ProfileViewController")
+    }
+    
     
     @IBAction func suanokunan_button_action(_ sender: Any) {
         showVC(identifierName: "ViewController")
@@ -46,6 +50,8 @@ class ViewController: MyController {
     @IBOutlet weak var middle_label1_outlet: UILabel!{
         didSet{
             middle_label1_outlet.text = "Kurgu ve Edebiyat"
+            middle_label1_outlet.layer.borderWidth = 1
+            middle_label1_outlet.layer.borderColor = Color._EFF4F6.cgColor
         }
     }
     @IBAction func kahve_kurgu_button_action(_ sender: Any) {
@@ -54,6 +60,8 @@ class ViewController: MyController {
     @IBOutlet weak var middle_label2_outlet: UILabel!{
         didSet{
             middle_label2_outlet.text = "Araştırma ve İnceleme"
+            middle_label2_outlet.layer.borderWidth = 1
+            middle_label2_outlet.layer.borderColor = Color._EFF4F6.cgColor
         }
     }
     @IBAction func tarot_arastirma_button_action(_ sender: Any) {
@@ -61,7 +69,9 @@ class ViewController: MyController {
     }
     @IBOutlet weak var middle_label3_outlet: UILabel!{
         didSet{
-            middle_label2_outlet.text = "Sorgulama ve Eleştirme"
+            middle_label3_outlet.text = "Sorgulama ve Eleştirme"
+            middle_label3_outlet.layer.borderWidth = 1
+            middle_label3_outlet.layer.borderColor = Color._EFF4F6.cgColor
         }
     }
     @IBAction func melek_sorgulama_button_action(_ sender: Any) {

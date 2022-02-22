@@ -12,8 +12,12 @@ class ProfileViewController: MyController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        username_post_request_json(id: user_id)
 
        
+    }
+    @IBAction func settings_action(_ sender: Any) {
+        showVC(identifierName: "SettingsViewController")
     }
     
     @IBAction func close_button_action(_ sender: Any) {

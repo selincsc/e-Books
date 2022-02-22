@@ -34,7 +34,7 @@ class LoginViewController: MyController {
     @IBOutlet weak var label2_outlet: UILabel!{
             didSet{
                 label2_outlet.text = "Learn more about publishing to Apple ID. "
-                label2_outlet.textColor = UIColor.blue
+                label2_outlet.textColor = Color._0097DA
             }
 }
     @IBAction func signin_button_action(_ sender: Any) {
@@ -42,8 +42,6 @@ class LoginViewController: MyController {
     }
     
     @IBAction func createaccount_action(_ sender: Any) {        showVC(identifierName: "SignViewController")
-
-
     }
     @IBAction func continue_button_action(_ sender: Any) {        showVC(identifierName: "SignViewController")
 
