@@ -29,6 +29,7 @@ class WritersViewController: MyController, UITableViewDataSource, UITableViewDel
     @IBAction func kitaplik_button_action(_ sender: Any) {
     }
     @IBAction func kitapci_button_action(_ sender: Any) {
+        showVC(identifierName: "AboutViewController")
     }
     @IBAction func search_button_action(_ sender: Any) {
     }

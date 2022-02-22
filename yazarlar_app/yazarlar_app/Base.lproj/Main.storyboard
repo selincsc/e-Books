@@ -614,18 +614,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s2I-nV-Tqx" customClass="AnimatedImageView" customModule="Kingfisher">
-                                <rect key="frame" x="141" y="95" width="105" height="105"/>
+                                <rect key="frame" x="155" y="95" width="105" height="105"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAG-fy-QCF">
-                                <rect key="frame" x="50" y="208" width="287" height="64"/>
+                                <rect key="frame" x="64" y="208" width="287" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGl-MJ-evz">
-                                <rect key="frame" x="266" y="130" width="102" height="70"/>
+                                <rect key="frame" x="281" y="130" width="102" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="cloud" catalog="system" title=""/>
@@ -638,6 +638,18 @@
                                         <rect key="frame" x="13" y="8" width="100" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdw-Qa-6eY">
+                                        <rect key="frame" x="13" y="0.0" width="100" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="search_button_action:" destination="z2F-Vf-d8T" eventType="touchUpInside" id="q0v-ad-KrD"/>
+                                            <action selector="suanokunan_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SQx-Pm-Gpf"/>
+                                            <action selector="suanokunan_button_action:" destination="aGr-Yv-38o" eventType="touchUpInside" id="VyP-7n-zbK"/>
+                                            <action selector="suanokunan_button_action:" destination="z2F-Vf-d8T" eventType="touchUpInside" id="qnP-NJ-0g8"/>
+                                        </connections>
+                                    </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7349" translatesAutoresizingMaskIntoConstraints="NO" id="3j6-6x-c5U">
                                         <rect key="frame" x="115" y="6" width="111" height="67"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
@@ -648,6 +660,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title=""/>
                                         <connections>
+                                            <action selector="kitaplik_button_action:" destination="aGr-Yv-38o" eventType="touchUpInside" id="4It-KF-lEI"/>
                                             <action selector="kitaplik_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EcN-Pa-3ix"/>
                                             <action selector="kitaplik_button_action:" destination="z2F-Vf-d8T" eventType="touchUpInside" id="X3M-Hz-9gJ"/>
                                         </connections>
@@ -664,6 +677,7 @@
                                         <connections>
                                             <action selector="kitapci_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U4v-PL-p6A"/>
                                             <action selector="kitapci_button_action:" destination="z2F-Vf-d8T" eventType="touchUpInside" id="gnd-bI-afW"/>
+                                            <action selector="kitapci_button_action:" destination="aGr-Yv-38o" eventType="touchUpInside" id="t3H-jz-NlE"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_7351" translatesAutoresizingMaskIntoConstraints="NO" id="LwM-7s-Di7">
@@ -677,24 +691,22 @@
                                         <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
                                             <action selector="search_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KkM-tu-p6s"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pdw-Qa-6eY">
-                                        <rect key="frame" x="13" y="0.0" width="100" height="64"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain"/>
-                                        <connections>
-                                            <action selector="search_button_action:" destination="z2F-Vf-d8T" eventType="touchUpInside" id="q0v-ad-KrD"/>
-                                            <action selector="suanokunan_button_action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SQx-Pm-Gpf"/>
-                                            <action selector="suanokunan_button_action:" destination="z2F-Vf-d8T" eventType="touchUpInside" id="qnP-NJ-0g8"/>
+                                            <action selector="search_button_action:" destination="aGr-Yv-38o" eventType="touchUpInside" id="nya-aS-OUa"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGray4Color"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KkO-2E-60a" customClass="button_desing" customModule="yazarlar_app" customModuleProvider="target">
+                                <rect key="frame" x="276" y="109" width="107" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Yeni"/>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GVe-yT-MW2">
-                                <rect key="frame" x="20" y="280" width="363" height="406"/>
+                                <rect key="frame" x="64" y="313" width="301" height="357"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -704,6 +716,13 @@
                         <viewLayoutGuide key="safeArea" id="4qe-jO-G7S"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="about_label_outlet" destination="GVe-yT-MW2" id="Y1f-gI-5bW"/>
+                        <outlet property="footer_view_outlet" destination="ENL-n9-u43" id="hFF-5u-4dM"/>
+                        <outlet property="image_view_outlet" destination="s2I-nV-Tqx" id="RDY-Tk-uLo"/>
+                        <outlet property="name_label_outlet" destination="EAG-fy-QCF" id="fjv-LJ-eaw"/>
+                        <outlet property="onecikan_outlet" destination="KkO-2E-60a" id="VNM-rb-d7A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XVp-m8-lgp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -746,6 +765,9 @@
         </designable>
         <designable name="Ez6-x7-SNl">
             <size key="intrinsicContentSize" width="188.5" height="31"/>
+        </designable>
+        <designable name="KkO-2E-60a">
+            <size key="intrinsicContentSize" width="51.5" height="31"/>
         </designable>
         <designable name="OyB-fG-amh">
             <size key="intrinsicContentSize" width="229" height="31"/>

@@ -31,8 +31,10 @@ class ViewController: MyController {
         showVC(identifierName: "ViewController")
     }
     @IBAction func kitaplik_button_action(_ sender: Any) {
+        showVC(identifierName: "WritersViewController")
     }
     @IBAction func kitapci_button_action(_ sender: Any) {
+        showVC(identifierName: "AboutViewController")
     }
     @IBAction func search_button_action(_ sender: Any) {
     }
