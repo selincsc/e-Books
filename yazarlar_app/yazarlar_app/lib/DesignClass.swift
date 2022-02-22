@@ -56,7 +56,7 @@ open class button_desing: UIButton {
     func setup() {
         
         layer.cornerRadius = 12
-        makeRounded(borderColor: UIColor.gray, borderWidth: 1.0, isBorder: Bool())
+        
         
         
     }

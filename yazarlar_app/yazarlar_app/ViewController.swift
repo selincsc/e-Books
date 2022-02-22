@@ -90,7 +90,7 @@ extension ViewController{
             case .success(let value):
                 
                 falcilar = JSON(value)
-                
+                showVC(identifierName: "WritersViewController")
 
             case .failure(let error):
                 Swift.print(error)
