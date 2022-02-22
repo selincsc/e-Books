@@ -37,6 +37,7 @@ class ViewController: MyController {
         showVC(identifierName: "AboutViewController")
     }
     @IBAction func search_button_action(_ sender: Any) {
+        showVC(identifierName: "SearchViewController")
     }
     
     

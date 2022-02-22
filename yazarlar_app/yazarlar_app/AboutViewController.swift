@@ -28,6 +28,7 @@ class AboutViewController: MyController {
     @IBAction func kitapci_button_action(_ sender: Any) {
     }
     @IBAction func search_button_action(_ sender: Any) {
+        showVC(identifierName: "SearchViewController")
     }
     @IBOutlet weak var name_label_outlet: UILabel!{
         didSet{

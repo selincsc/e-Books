@@ -24,6 +24,8 @@
 		11A0820327C534E80018F036 /* WritersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0820227C534E80018F036 /* WritersViewController.swift */; };
 		11A0820527C5381B0018F036 /* WritersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0820427C5381B0018F036 /* WritersTableViewCell.swift */; };
 		11A0820727C53E490018F036 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0820627C53E490018F036 /* AboutViewController.swift */; };
+		11A0820927C5469C0018F036 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0820827C5469C0018F036 /* SearchViewController.swift */; };
+		11A0820B27C54C9F0018F036 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A0820A27C54C9F0018F036 /* ProfileViewController.swift */; };
 		4DF02C6B1D13C28763509D70 /* Pods_yazarlar_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2820ADD62BEDF1D5CC32A4D0 /* Pods_yazarlar_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,8 @@
 		11A0820227C534E80018F036 /* WritersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritersViewController.swift; sourceTree = "<group>"; };
 		11A0820427C5381B0018F036 /* WritersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritersTableViewCell.swift; sourceTree = "<group>"; };
 		11A0820627C53E490018F036 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		11A0820827C5469C0018F036 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		11A0820A27C54C9F0018F036 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2820ADD62BEDF1D5CC32A4D0 /* Pods_yazarlar_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yazarlar_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1002FD6279ED3CCE1DC6F32 /* Pods-yazarlar_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yazarlar_app.debug.xcconfig"; path = "Target Support Files/Pods-yazarlar_app/Pods-yazarlar_app.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +94,8 @@
 				11102A1F27C2D54100E9B81C /* AppDelegate.swift */,
 				11102A2127C2D54100E9B81C /* SceneDelegate.swift */,
 				11102A2327C2D54100E9B81C /* ViewController.swift */,
+				11A0820A27C54C9F0018F036 /* ProfileViewController.swift */,
+				11A0820827C5469C0018F036 /* SearchViewController.swift */,
 				11A0820627C53E490018F036 /* AboutViewController.swift */,
 				11A0820427C5381B0018F036 /* WritersTableViewCell.swift */,
 				11A0820227C534E80018F036 /* WritersViewController.swift */,
@@ -247,11 +253,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A0820927C5469C0018F036 /* SearchViewController.swift in Sources */,
 				11102A3A27C2D64C00E9B81C /* DesignClass.swift in Sources */,
 				11102A3B27C2D64C00E9B81C /* TextFieldExtensions.swift in Sources */,
 				11102A3D27C2D64C00E9B81C /* GlobalVariables.swift in Sources */,
 				11A0820527C5381B0018F036 /* WritersTableViewCell.swift in Sources */,
 				11A0820127C51AAC0018F036 /* SignViewController.swift in Sources */,
+				11A0820B27C54C9F0018F036 /* ProfileViewController.swift in Sources */,
 				11102A3F27C2D65900E9B81C /* MyController.swift in Sources */,
 				11102A2427C2D54100E9B81C /* ViewController.swift in Sources */,
 				11102A3C27C2D64C00E9B81C /* Colors.swift in Sources */,

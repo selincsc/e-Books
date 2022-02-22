@@ -32,6 +32,7 @@ class WritersViewController: MyController, UITableViewDataSource, UITableViewDel
         showVC(identifierName: "AboutViewController")
     }
     @IBAction func search_button_action(_ sender: Any) {
+        showVC(identifierName: "SearchViewController")
     }
 
     @IBOutlet weak var table_view_outlet: UITableView!{
