@@ -36,11 +36,12 @@ open class view2_desing: UIView {
     func setup() {
         layer.cornerRadius = 9
         backgroundColor = Color._FFFFFF
+          
     
     }
     
     override init(frame: CGRect) {
-        super.init(frame: frame)
+        super.init(frame: frame) 
         setup()
     }
     

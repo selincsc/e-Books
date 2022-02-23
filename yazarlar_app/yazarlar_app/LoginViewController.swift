@@ -38,7 +38,7 @@ class LoginViewController: MyController {
             }
 }
     @IBAction func signin_button_action(_ sender: Any) {
-        showVC(identifierName: "SignViewController")
+        showVC(identifierName: "collectionViewController")
     }
     
     @IBAction func createaccount_action(_ sender: Any) {        showVC(identifierName: "SignViewController")
