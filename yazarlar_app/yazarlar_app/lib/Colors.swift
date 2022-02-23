@@ -47,6 +47,8 @@ internal enum Color{
     internal static let  _FDFDFD = UIColor(hexString: "FDFDFD");
     internal static let  _EEECEC = UIColor(hexString: "EEECEC");
     internal static let  _0097DA = UIColor(hexString: "0097DA");
+    internal static let  _A787CF = UIColor(hexString: "A787CF");
+
 
 
 }
