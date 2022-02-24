@@ -32,8 +32,8 @@ extension collectionViewController: UICollectionViewDelegate, UICollectionViewDa
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView_outlet.dequeueReusableCell(withReuseIdentifier: "CollectionViewCell",for: indexPath) as! CollectionViewCell
-        Url_To_Image(url: imageBaseURL + falcilar["data"][indexPath.item]["falci_img"].stringValue, imageView: cell.image_view_outlet as! AnimatedImageView)
-        
+        Url_To_Image(url: imageBaseURL + falcilar["data"][indexPath.item]["falci_img"].stringValue, imageView: cell.image_view_outlet)
+       
         cell.number_label_outlet.text = String(indexPath.row+1)
         cell.title_label_outlet.text = falcilar["data"][indexPath.item]["falci_name"].stringValue
         
@@ -75,7 +75,7 @@ extension collectionViewController{
 extension collectionViewController {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        return CGSize(width: 150,height: 200)
+        return CGSize(width: 170,height: 200)
     }
 }
 //extension collectionViewController{
